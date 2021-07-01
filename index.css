@@ -1,0 +1,17 @@
+.main{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    row-gap: 0;
+    column-gap: 0;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main div{
+    background-color: blue;
+}
